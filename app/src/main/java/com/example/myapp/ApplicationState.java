@@ -7,6 +7,8 @@ import java.util.HashMap;
  * Every Activity has equal access to this class and it is data.
  * Implemented as a Singleton design pattern.
  */
+
+
 public class ApplicationState {
         private static final int QUESTIONS_COUNT = 10;
         private static ApplicationState instance = null;
